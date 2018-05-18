@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PingMonitor</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">Hello World!</string>
+    <string name="service_started">PingMonitor Service started.</string>
+    <string name="service_stopped">PingMonitor Service stopped.</string>
+    <string name="service_label">PingMonitor Service</string>
+</resources>

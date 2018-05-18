@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text=""
+            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+
+        <View
+            android:background="@color/colorBlack"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
